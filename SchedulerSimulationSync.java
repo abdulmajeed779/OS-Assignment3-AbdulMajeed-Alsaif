@@ -5,6 +5,8 @@ import java.util.HashMap;
 import java.util.Random;
 import java.util.ArrayList;
 import java.util.List;
+// Added imports for synchronization tools
+import java.util.concurrent.locks.ReentrantLock;
 
 // ANSI Color Codes for enhanced terminal output
 class Colors {
@@ -38,6 +40,7 @@ class SharedResources {
 
     // TODO #1: Add a ReentrantLock(s) here to protect critical sections
     // Example: public static final ReentrantLock lock = new ReentrantLock();
+    public static final ReentrantLock countersLock = new ReentrantLock();
 
     // TODO #2: Add a Semaphore to limit concurrent process execution
     // Example: public static final Semaphore cpuSemaphore = new Semaphore(1);
