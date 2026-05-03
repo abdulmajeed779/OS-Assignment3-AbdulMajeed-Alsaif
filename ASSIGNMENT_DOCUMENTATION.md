@@ -85,7 +85,7 @@ Document your development process with **minimum 3 entries** showing progression
 
 ---
 
-### Entry 5 - [May 3-2026,5:AM]
+### Entry 5 - [May 3-2026,5:45AM]
 **What I implemented**: Final code review, completing the `ASSIGNMENT_DOCUMENTATION.md` file, and recording the required demonstration video.
 
 **Challenges encountered**: Keeping the video under the strict 5-minute limit while clearly explaining all synchronization mechanisms and race conditions.
